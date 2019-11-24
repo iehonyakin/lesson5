@@ -264,3 +264,20 @@ tcp    LISTEN     0      128      :::8080                 :::*                  
 tcp    LISTEN     0      128      :::80                   :::*                   users:(("httpd",pid=6248,fd=4),("httpd",pid=6247,fd=4),("httpd",pid=6246,fd=4),("httpd",pid=6245,fd=4),("httpd",pid=6244,fd=4),("httpd",pid=6243,fd=4))
 [root@lvm vagrant]#
 
+
+
+
+
+
+[root@lvm vagrant]# tail -f /var/log/messages
+Nov 24 18:08:05 localhost systemd: Started My watchlog service.
+Nov 24 18:08:35 localhost systemd: Starting My watchlog service...
+Nov 24 18:08:35 localhost root: Sun Nov 24 18:08:35 UTC 2019: I found word, Master!
+Nov 24 18:08:35 localhost systemd: Started My watchlog service.
+Nov 24 18:09:05 localhost systemd: Starting My watchlog service...
+Nov 24 18:09:05 localhost root: Sun Nov 24 18:09:05 UTC 2019: I found word, Master!
+Nov 24 18:09:05 localhost systemd: Started My watchlog service.
+Nov 24 18:09:35 localhost systemd: Starting My watchlog service...
+Nov 24 18:09:35 localhost root: Sun Nov 24 18:09:35 UTC 2019: I found word, Master!
+Nov 24 18:09:35 localhost systemd: Started My watchlog service.
+
